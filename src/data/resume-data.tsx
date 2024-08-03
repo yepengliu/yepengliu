@@ -34,26 +34,27 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "",
   
   contact: {
-    email: "yepeng.liu@ufl.edu",
-    tel: "+863522266396",
+    email: "",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/yepengliu",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yepeng-liu-2951b2197",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
         icon: XIcon,
       },
     ],
   },
+  
   education: [
     {
       school: "Wrocław University of Technology",
@@ -62,6 +63,7 @@ export const RESUME_DATA = {
       end: "2010",
     },
   ],
+  
   work: [
     {
       company: "Film.io",
