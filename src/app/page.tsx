@@ -22,7 +22,9 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
 
-            <h1 className="text-3xl font-bold">{RESUME_DATA.name}</h1>
+            <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
+
+            <div style={{ height: '20px' }}></div> 
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
