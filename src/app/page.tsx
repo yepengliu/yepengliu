@@ -83,11 +83,11 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar> */}
 
-          <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
+{/*           <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
             <span class="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
               <img class="aspect-square h-full w-full" alt="YL" src="../data/BO0A0172.jpg">
             </span>
-          </div>
+          </div> */}
             
         </div>
         
