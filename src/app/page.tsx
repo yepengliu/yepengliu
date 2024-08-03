@@ -84,7 +84,7 @@ export default function Page() {
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
             </Avatar> */}
           
-          <img src="https://www.dropbox.com/scl/fi/3e3i5gey0xs9eedrhomt9/me.jpeg?rlkey=qwa803buxioqpngco7x9hk6a4&dl=0" alt="YL" className="rounded-full w-24 h-30 object-cover" />
+          <img src="me.jpeg" alt="YL" className="rounded-full w-24 h-30 object-cover" />
             
         </div>
         
