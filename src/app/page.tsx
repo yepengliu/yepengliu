@@ -79,7 +79,7 @@ export default function Page() {
             </div>
           </div>
 
-            <Avatar className="flex shrink-0 overflow-hidden size-28">
+            <Avatar className="flex shrink-0 overflow-hidden">
               <AvatarImage src="https://previews.dropbox.com/p/thumb/ACXswrKrDfuzhLa2EjjL4pJkNfNQyc8o_sHmAwqEWICvdmXPCYsAqC9w7HxUVtFIgat3VOUcdjEwb7AdGW3-N7IJHY1J_fY8m_NffoexKLmre-x10RM-4oS6V9MaNhTXT9OA3CWTaNrnWqtfqjZxJsdTK49lhPZbst8QjicpnYDttFGkHktnP7oUsdGmSrURGSWTQOMEu-qZx3V2Qi7HONbA1Jx0UQYisL-hayNovbhIbMWui6cQXTMTzYbT6eB6HABZGqOavsL5XZ1Db-fn6PlWyOBW9GKZPQbA0MULmdgrPyT5WriSfIm7h1SYAIHtEXMdTBqWlhVe-u_n382ZGFByd1wGylu4ek0ejh170TS_gA/p.jpeg" />
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
             </Avatar>
