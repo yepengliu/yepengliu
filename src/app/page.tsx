@@ -18,7 +18,44 @@ export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section id="hero" className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
-        <div className="flex items-center justify-between">
+
+        <div class="mx-auto w-full max-w-2xl space-y-8">
+          <div class="gap-2 flex justify-between">
+            <div class="flex-col flex flex-1 space-y-1.5">
+              <div class="flex">
+                <span class="inline-block pb-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none" style="opacity: 1; filter: blur(0px); transform: translateY(-8px) translateZ(0px);">Yepeng Liu</span>
+              </div>
+              <div class="flex">
+                <span class="inline-block max-w-[600px] md:text-xl" style="opacity: 1; filter: blur(0px); transform: translateY(-8px) translateZ(0px);">
+                  <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+                    <a
+                      className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                      target="_blank"
+                    >
+                      <Mail className="size-3" />
+                      {RESUME_DATA.email}
+                    </a>
+                  </p>
+            
+                  <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+                    <a
+                      className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                      href={RESUME_DATA.locationLink}
+                      target="_blank"
+                    >
+                      <GlobeIcon className="size-3" />
+                      {RESUME_DATA.location}
+                    </a>
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);"><span class="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
+              <img class="aspect-square h-full w-full" alt="YL" src="../data/BO0A0172.jpg"></span>
+            </div>
+          </div>
+        </div>
+{/*         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-3xl font-bold">{RESUME_DATA.name}</h1>
             
@@ -81,7 +118,7 @@ export default function Page() {
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
-        </div>
+        </div> */}
         
         <Section>
           <h2 className="text-xl font-bold">About</h2>
