@@ -78,8 +78,8 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="transform: translateY(-6px) translateZ(0px)">
-            <span className="relative flex shrink-0 overflow-hidden  border">
+          <div>
+            <span className="relative flex shrink-0 overflow-hidden border">
               <img className="h-full w-full" alt="YL" src="/me.jpg">
             </span>
           </div>
