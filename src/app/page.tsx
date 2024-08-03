@@ -24,7 +24,7 @@ export default function Page() {
 
             <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
 
-            <div style={{ height: '20px' }}></div> 
+            <div style={{ height: '40px' }}></div> 
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
