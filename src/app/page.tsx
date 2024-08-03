@@ -26,8 +26,6 @@ export default function Page() {
               {RESUME_DATA.about}
             </p>
 
-            <img src="../data/BO0A0172.jpg" alt={RESUME_DATA.name} className="size-28" />
-
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
@@ -79,10 +77,10 @@ export default function Page() {
             </div>
           </div>
 
-{/*           <Avatar className="size-28">
+          <Avatar className="size-28">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar> */}
+          </Avatar>
         </div>
         
         <Section>
@@ -185,19 +183,6 @@ export default function Page() {
           </div>
         </Section>
       </section>
-
-      <CommandMenu
-        links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
-      />
         
 
 
