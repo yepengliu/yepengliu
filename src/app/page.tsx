@@ -78,16 +78,11 @@ export default function Page() {
             </div>
           </div>
 
-{/*           <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar> */}
-
-{/*           <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
-            <span class="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
-              <img class="aspect-square h-full w-full" alt="YL" src="../data/BO0A0172.jpg">
+          <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
+            <span className="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
+              <img className="aspect-square h-full w-full" alt="YL" src="/me.jpg">
             </span>
-          </div> */}
+          </div>
             
         </div>
         
