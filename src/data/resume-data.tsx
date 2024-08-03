@@ -25,8 +25,7 @@ export const RESUME_DATA = {
   location: "Gainesville, Florida, USA",
   locationLink: "https://maps.app.goo.gl/TjqGZppaxcaNvu5r9",
   email: "yepeng.liu@ufl.edu",
-  about:"
-    ",
+  about:"      ",
   
   summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at University of Florida. I'm very fortuante to be advised by Prof. Yuheng Bu.",
   
