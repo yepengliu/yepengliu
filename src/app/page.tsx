@@ -85,7 +85,7 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
             {RESUME_DATA.summary}
           </p>
         </Section>
