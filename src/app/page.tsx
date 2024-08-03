@@ -84,7 +84,7 @@ export default function Page() {
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
             </Avatar> */}
           
-          <img src="https://previews.dropbox.com/p/thumb/ACUIj2cEAEC5_jPRe1SZqOOnBVwBa1TmSSsXNEflTIj8Hh-hP3r2cOb64d3Vn4uCJKd1ah_jcdBbtfmZ4144DzugTc85paLrlUmkk-bb109ZBO7-xvgumj1KFBhAGj5W7H7gXmbCoZFnxae6tOzu4EaOGkHjH4zed8qqZVmVMdEwYuFwGGi8U70F7ImmW1wP2hLcqsacM5DRcHObhU_TN6g41ekS5I_ro5vvV0I9C0uz_oxmdEQDQcrK0SXWsjy-X5CPYD799okxM3J1_eAhu_7XlegnZSr_16KqwbTXxwUN3e3i_C19fBAJCev4zeBAHB2MOtC887EOKQIrfDfkHHO5MaGrxon9RS_wQ9FSEeeaVQ/p.jpeg" alt="YL" className="rounded-full w-24 h-30 object-cover" />
+          <img src="https://previews.dropbox.com/p/thumb/ACUIj2cEAEC5_jPRe1SZqOOnBVwBa1TmSSsXNEflTIj8Hh-hP3r2cOb64d3Vn4uCJKd1ah_jcdBbtfmZ4144DzugTc85paLrlUmkk-bb109ZBO7-xvgumj1KFBhAGj5W7H7gXmbCoZFnxae6tOzu4EaOGkHjH4zed8qqZVmVMdEwYuFwGGi8U70F7ImmW1wP2hLcqsacM5DRcHObhU_TN6g41ekS5I_ro5vvV0I9C0uz_oxmdEQDQcrK0SXWsjy-X5CPYD799okxM3J1_eAhu_7XlegnZSr_16KqwbTXxwUN3e3i_C19fBAJCev4zeBAHB2MOtC887EOKQIrfDfkHHO5MaGrxon9RS_wQ9FSEeeaVQ/p.jpeg" alt="YL" className="w-30 h-37.5 object-cover" />
             
         </div>
         
