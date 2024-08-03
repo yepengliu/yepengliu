@@ -21,6 +21,13 @@ export default function Page() {
 
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
+
+            <Avatar>
+              <AvatarImage alt={RESUME_DATA.name} src="/me.jpg" />
+              <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+            </Avatar>
+
+            
             <h1 className="text-3xl font-bold">{RESUME_DATA.name}</h1>
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
