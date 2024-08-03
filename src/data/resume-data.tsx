@@ -24,6 +24,7 @@ export const RESUME_DATA = {
   initials: "YL",
   location: "Gainesville, Florida, USA",
   locationLink: "https://maps.app.goo.gl/TjqGZppaxcaNvu5r9",
+  email: "yepeng.liu@ufl.edu",
   about:"",
   
   summary:
