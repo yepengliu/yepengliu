@@ -25,11 +25,11 @@ export const RESUME_DATA = {
   location: "Gainesville, Florida, USA",
   locationLink: "https://maps.app.goo.gl/TjqGZppaxcaNvu5r9",
   email: "yepeng.liu@ufl.edu",
-  about:"      ",
+  about: "      ",
   
   summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at University of Florida. I'm very fortuante to be advised by Prof. Yuheng Bu.",
   
-  avatarUrl: "https://github.com/yepengliu/yepengliu/blob/main/src/data/BO0A0172.jpg",
+  avatarUrl: "https://previews.dropbox.com/p/thumb/ACXswrKrDfuzhLa2EjjL4pJkNfNQyc8o_sHmAwqEWICvdmXPCYsAqC9w7HxUVtFIgat3VOUcdjEwb7AdGW3-N7IJHY1J_fY8m_NffoexKLmre-x10RM-4oS6V9MaNhTXT9OA3CWTaNrnWqtfqjZxJsdTK49lhPZbst8QjicpnYDttFGkHktnP7oUsdGmSrURGSWTQOMEu-qZx3V2Qi7HONbA1Jx0UQYisL-hayNovbhIbMWui6cQXTMTzYbT6eB6HABZGqOavsL5XZ1Db-fn6PlWyOBW9GKZPQbA0MULmdgrPyT5WriSfIm7h1SYAIHtEXMdTBqWlhVe-u_n382ZGFByd1wGylu4ek0ejh170TS_gA/p.jpeg",
   
   personalWebsiteUrl: "",
   
