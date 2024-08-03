@@ -79,10 +79,12 @@ export default function Page() {
             </div>
           </div>
 
-            <Avatar className="h-35 w-28">
+{/*             <Avatar className="h-35 w-28">
               <AvatarImage src="./src/app/me.jpg" />
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-            </Avatar>
+            </Avatar> */}
+          
+          <img src="/me.jpg" alt="YL" className="rounded-full w-24 h-30 object-cover" />
             
         </div>
         
