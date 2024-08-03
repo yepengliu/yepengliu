@@ -26,6 +26,8 @@ export default function Page() {
               {RESUME_DATA.about}
             </p>
 
+            <img src="../data/BO0A0172.jpg" alt={RESUME_DATA.name} className="size-28" />
+
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
