@@ -80,7 +80,7 @@ export default function Page() {
 
           <div>
             <span>
-              <img src="/me.jpg">
+              <img src="me.jpg">
             </span>
           </div>
             
