@@ -78,9 +78,9 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
-            <span className="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
-              <img className="aspect-square h-full w-full" alt="YL" src="/me.jpg">
+          <div className="transform: translateY(-6px) translateZ(0px)">
+            <span className="relative flex shrink-0 overflow-hidden  border">
+              <img className="h-full w-full" alt="YL" src="/me.jpg">
             </span>
           </div>
             
