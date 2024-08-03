@@ -20,15 +20,14 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Yepeng Liu",
+  name: "Yepeng Liu!",
   initials: "YL",
   location: "Gainesville, Florida, USA",
   locationLink: "https://maps.app.goo.gl/TjqGZppaxcaNvu5r9",
   email: "yepeng.liu@ufl.edu",
   about:"",
   
-  summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
+  summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at University of Florida. I'm very fortuante to be advised by Prof. Yuheng Bu.",
   
   avatarUrl: "https://github.com/yepengliu/yepengliu/blob/main/src/data/BO0A0172.jpg",
   
