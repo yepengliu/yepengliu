@@ -24,42 +24,33 @@ export const RESUME_DATA = {
   initials: "YL",
   location: "Gainesville, Florida, USA",
   locationLink: "https://maps.app.goo.gl/TjqGZppaxcaNvu5r9",
-  
-  about:
-    "Email: yepeng.liu@ufl.edu",
+  email: "yepeng.liu@ufl.edu",
   
   summary:
     "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
   
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://github.com/yepengliu/yepengliu/blob/main/src/data/BO0A0172.jpg",
+  
   contact: {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/yepengliu",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yepeng-liu-2951b2197",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
+        name: "Google Scholer",
+        url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
         icon: XIcon,
       },
     ],
   },
-  education: [
-    {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
+
   work: [
     {
       company: "Film.io",
