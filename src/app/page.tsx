@@ -23,15 +23,14 @@ export default function Page() {
           <div class="gap-2 flex justify-between">
             <div class="flex-col flex flex-1 space-y-1.5">
               <div class="flex">
-                <span class="inline-block pb-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none" style="opacity: 1; filter: blur(0px); transform: translateY(-8px) translateZ(0px);">Yepeng Liu</span>
+                <span class="inline-block pb-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none" style="opacity: 1; filter: blur(0px); transform: translateY(-8px) translateZ(0px);">
+                  Yepeng Liu
+                </span>
               </div>
               <div class="flex">
                 <span class="inline-block max-w-[600px] md:text-xl" style="opacity: 1; filter: blur(0px); transform: translateY(-8px) translateZ(0px);">
                   <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
-                    <a
-                      className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                      target="_blank"
-                    >
+                    <a className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" target="_blank">
                       <Mail className="size-3" />
                       {RESUME_DATA.email}
                     </a>
@@ -50,8 +49,10 @@ export default function Page() {
                 </span>
               </div>
             </div>
-            <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);"><span class="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
-              <img class="aspect-square h-full w-full" alt="YL" src="../data/BO0A0172.jpg"></span>
+            <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
+              <span class="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
+                <img class="aspect-square h-full w-full" alt="YL" src="../data/BO0A0172.jpg">
+              </span>
             </div>
           </div>
         </div>
