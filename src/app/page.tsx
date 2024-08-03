@@ -77,12 +77,6 @@ export default function Page() {
               ) : null}
             </div>
           </div>
-
-          <div>
-            <span>
-              <img src="me.jpg">
-            </span>
-          </div>
             
         </div>
         
