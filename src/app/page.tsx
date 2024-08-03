@@ -79,8 +79,8 @@ export default function Page() {
           </div>
 
           <div>
-            <span className="relative flex shrink-0 overflow-hidden border">
-              <img className="h-full w-full" alt="YL" src="/me.jpg">
+            <span>
+              <img src="/me.jpg">
             </span>
           </div>
             
