@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   
   summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the University of Florida. I'm very fortunate to be advised by Prof. Yuheng Bu. My current research focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models.",
   
-  avatarUrl: "yepengliu/yepengliu/me.jpg",
+  avatarUrl: "https://raw.githubusercontent.com/yepengliu/yepengliu/main/src/app/me.jpg",
   
   personalWebsiteUrl: "",
   
