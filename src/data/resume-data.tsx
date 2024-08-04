@@ -68,15 +68,12 @@ export const RESUME_DATA = {
   
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      company: "Adaptive Text Watermark for Large Language Models",
+      link: "https://arxiv.org/abs/2401.13927",
+      badges: [],
+      title: "Yepeng Liu, Yuheng Bu",
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Proceedings of ICML 2024",
     },
     {
       company: "Parabol",
