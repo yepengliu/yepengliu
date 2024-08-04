@@ -116,7 +116,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
+                <CardContent className="mt-2 text-xs print:text-[12px]">
                   {work.description}
                 </CardContent>
               </Card>
