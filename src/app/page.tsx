@@ -10,7 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name}`,
+  title: `${RESUME_DATA.website}`,
   description: RESUME_DATA.summary,
 };
 
@@ -107,9 +107,9 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+{/*                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end ?? "Present"}
-                    </div>
+                    </div> */}
                   </div>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px]">
