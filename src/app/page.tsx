@@ -119,6 +119,8 @@ export default function Page() {
                   
                 </CardHeader>
               </Card>
+
+              <div style={{ height: '10px' }}></div> 
             );
           })}
         </Section>
