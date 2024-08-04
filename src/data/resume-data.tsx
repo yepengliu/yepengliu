@@ -98,6 +98,6 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Neurips 2024",
+    "Neurips2024",
   ],
 } as const;
