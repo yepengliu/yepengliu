@@ -22,11 +22,9 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
 
-            <div style={{ height: '30px' }}></div> 
-		  
             <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
 
-            <div style={{ height: '60px' }}></div> 
+            <div style={{ height: '90px' }}></div> 
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
@@ -68,16 +66,6 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
-              {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                  <span className="underline">{RESUME_DATA.contact.email}</span>
-	                  @@ -78,7 +78,7 @@ export default function Page() {
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
-              ) : null}
-            </div>
             
           </div>
 
@@ -102,7 +90,7 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h4 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
@@ -118,7 +106,7 @@ export default function Page() {
                           </Badge>
                         ))}
                       </span>
-                    </h4>
+                    </h3>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
@@ -137,13 +125,23 @@ export default function Page() {
           })}
         </Section>
         
-{/*         <Section>
+        <Section>
           <h2 className="text-xl font-bold">Services</h2>
-          <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
-              "Reviewer: NeurIPS 2024
-          </h4>
-        </Section> */}
-      </Section>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return (
+                <Badge className="print:text-[10px]" key={skill}>
+                  {skill}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
+
+      </section>
+        
+
+
     </main>
   );
 }
