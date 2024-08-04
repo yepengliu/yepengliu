@@ -7,7 +7,7 @@ import {
   ConsultlyLogo,
   EvercastLogo,
   Howdy,
-  JarockiMeLogo,
+  // JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
   MobileVikingsLogo,
