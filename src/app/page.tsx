@@ -126,16 +126,13 @@ export default function Page() {
           })}
         </Section>
         
-        <Section>
+{/*         <Section>
           <h2 className="text-xl font-bold">Services</h2>
           <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
               "Reviewer: NeurIPS 2024
-          </h4>
+          </h4> */}
         </Section>
-
-        
-
-
+      </Section>
     </main>
   );
 }
