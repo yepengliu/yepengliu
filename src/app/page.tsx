@@ -10,7 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.summary,
 };
 
@@ -30,7 +30,7 @@ export default function Page() {
               {RESUME_DATA.about}
             </p>
 
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground print:text-[15px]">
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 target="_blank"
@@ -40,7 +40,7 @@ export default function Page() {
               </a>
             </p>
             
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground print:text-[15px]">
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
@@ -73,9 +73,7 @@ export default function Page() {
               <AvatarImage src={RESUME_DATA.avatarUrl} />
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
             </Avatar>
-          
-{/*           <img src="https://previews.dropbox.com/p/thumb/ACUIj2cEAEC5_jPRe1SZqOOnBVwBa1TmSSsXNEflTIj8Hh-hP3r2cOb64d3Vn4uCJKd1ah_jcdBbtfmZ4144DzugTc85paLrlUmkk-bb109ZBO7-xvgumj1KFBhAGj5W7H7gXmbCoZFnxae6tOzu4EaOGkHjH4zed8qqZVmVMdEwYuFwGGi8U70F7ImmW1wP2hLcqsacM5DRcHObhU_TN6g41ekS5I_ro5vvV0I9C0uz_oxmdEQDQcrK0SXWsjy-X5CPYD799okxM3J1_eAhu_7XlegnZSr_16KqwbTXxwUN3e3i_C19fBAJCev4zeBAHB2MOtC887EOKQIrfDfkHHO5MaGrxon9RS_wQ9FSEeeaVQ/p.jpeg" alt="YL" className="w-24 h-30 object-cover" /> */}
-            
+             
         </div>
         
         <Section>
