@@ -23,6 +23,7 @@ export default function Page() {
           <div className="flex-1 space-y-1.5">
 
             <div style={{ height: '30px' }}></div> 
+		  
             <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
 
             <div style={{ height: '60px' }}></div> 
@@ -101,7 +102,7 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                    <h4 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
@@ -117,7 +118,7 @@ export default function Page() {
                           </Badge>
                         ))}
                       </span>
-                    </h3>
+                    </h4>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
