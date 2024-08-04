@@ -129,7 +129,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
             <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
-              "Reviewer: NeurIPS 2024"
+              {"Reviewer: NeurIPS 2024"}
             </p>
           </div>
         </Section>
