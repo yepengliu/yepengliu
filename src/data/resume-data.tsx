@@ -20,6 +20,8 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
+  website: "Yepeng's Homepage",
+    
   name: "Yepeng Liu",
   initials: "YL",
   location: "Gainesville, Florida, USA",
