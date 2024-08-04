@@ -89,7 +89,7 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-sm">
                     <h4 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
@@ -125,18 +125,14 @@ export default function Page() {
           })}
         </Section>
         
-{/*         <Section>
+        <Section>
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return (
-                <Badge className="print:text-[10px]" key={skill}>
-                  {skill}
-                </Badge>
-              );
-            })}
+            <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
+              "Reviewer: NeurIPS 2024"
+            </p>
           </div>
-        </Section> */}
+        </Section>
 
       </section>
         
