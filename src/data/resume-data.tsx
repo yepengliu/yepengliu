@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   
   summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at University of Florida. I'm very fortuante to be advised by Prof. Yuheng Bu.",
   
-  avatarUrl: "https://previews.dropbox.com/p/thumb/ACXswrKrDfuzhLa2EjjL4pJkNfNQyc8o_sHmAwqEWICvdmXPCYsAqC9w7HxUVtFIgat3VOUcdjEwb7AdGW3-N7IJHY1J_fY8m_NffoexKLmre-x10RM-4oS6V9MaNhTXT9OA3CWTaNrnWqtfqjZxJsdTK49lhPZbst8QjicpnYDttFGkHktnP7oUsdGmSrURGSWTQOMEu-qZx3V2Qi7HONbA1Jx0UQYisL-hayNovbhIbMWui6cQXTMTzYbT6eB6HABZGqOavsL5XZ1Db-fn6PlWyOBW9GKZPQbA0MULmdgrPyT5WriSfIm7h1SYAIHtEXMdTBqWlhVe-u_n382ZGFByd1wGylu4ek0ejh170TS_gA/p.jpeg",
+  avatarUrl: "https://previews.dropbox.com/p/thumb/ACXpMCZcwbizz3LR0Rz_8TrGOtbW_HuQLM06aIfMZssn0SAYPx9sbuFiWln0zBmV3HSGPr_HjN-3N2J9Pyz8X9CGFk8RUkeVE0S7I8dfcUkzYCI_-hi53q8FZAePP_sRP6M80nzvnwhS34zE3IRR4_Wus9GFoHPyMJmHieKOJTOF5RZ6MpUSAiDENUBtdyodN_99qqLQDmwccamB0vikPDUmqoAqSECEx73yUDt1zaKy6pFme4FbeHcFsPy1tYujp8fzy76Dj8TL_0nsW8KQ5lCBM_SuASw3ZrRnt7-7tlcYK98GSMq8OpvliUMW-GOpA8oO-wy4duJSWOQ8jmKkSRsAC5-MPwfoe8os8OU42jus1RO_s4ptZ7xlpcfer9Bnlo4/p.jpeg",
   
   personalWebsiteUrl: "",
   
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Jiaqi Xue, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Bölöni, Qian Lou",
       description:
-        "Proceedings of Neurips 2024",
+        "Proceedings of NeurIPS 2024",
     },
     {
       company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
       description:
-        "Proceedings of Neurips 2024",
+        "Proceedings of NeurIPS 2024",
     },
     {
       company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
@@ -98,6 +98,6 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Neurips2024",
+    "NeurIPS 2024",
   ],
 } as const;
