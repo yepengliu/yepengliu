@@ -116,11 +116,11 @@ export default function Page() {
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
                     {work.description}
                   </h4>
-                  
+
+                  <div style={{ height: '10px' }}></div> 
+  
                 </CardHeader>
               </Card>
-
-              <div style={{ height: '10px' }}></div> 
             );
           })}
         </Section>
