@@ -128,9 +128,9 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">Services</h2>
-          <div className="flex flex-wrap gap-1">
-            "Reviewer: Neurips 2024" 
-          </div>
+          <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
+              "Reviewer: NeurIPS 2024
+          </h4>
         </Section>
 
       </section>
