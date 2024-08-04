@@ -112,10 +112,13 @@ export default function Page() {
                   <h4 className="font-mono text-sm leading-none print:text-[12px]">
                     {work.title}
                   </h4>
+
+                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                    {work.description}
+                  </h4>
+
+                  
                 </CardHeader>
-                <CardContent className="font-mono text-sm leading-none print:text-[12px]">
-                  {work.description}
-                </CardContent>
               </Card>
             );
           })}
