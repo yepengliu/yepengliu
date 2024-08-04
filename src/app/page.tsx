@@ -130,7 +130,6 @@ export default function Page() {
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
             "Reviewer: Neurips 2024" 
-            })}
           </div>
         </Section>
 
