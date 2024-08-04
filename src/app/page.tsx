@@ -125,7 +125,7 @@ export default function Page() {
           })}
         </Section>
         
-        <Section>
+{/*         <Section>
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
@@ -136,7 +136,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
 
       </section>
         
