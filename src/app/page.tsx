@@ -22,9 +22,10 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
 
+            <div style={{ height: '30px' }}></div> 
             <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
 
-            <div style={{ height: '90px' }}></div> 
+            <div style={{ height: '60px' }}></div> 
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
@@ -128,10 +129,7 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
-            "Reviewer:" {RESUME_DATA.skills.map((skill) => {
-              return (
-                  {skill}
-              );
+            "Reviewer: Neurips 2024" 
             })}
           </div>
         </Section>
