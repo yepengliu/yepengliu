@@ -109,14 +109,13 @@ export default function Page() {
                     </h3>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                  <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
                     {work.title}
                   </h4>
 
-                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                  <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
                     {work.description}
                   </h4>
-
                   
                 </CardHeader>
               </Card>
