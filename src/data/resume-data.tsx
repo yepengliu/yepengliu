@@ -71,15 +71,15 @@ export const RESUME_DATA = {
       company: "Image Watermarks are Removable Using Controllable Regeneration from Clean Noise",
       link: "https://arxiv.org/abs/2410.05470",
       badges: [],
-      title: "Yepeng Liu, Yiren Song, Hai Ci, Yu Zhang, Haofan Wang, Mike Zheng Shou, Yuheng Bu",
-      description: "Preprint",
+      title: "Yepeng Liu, Yiren Song, Hai Ci, Yu Zhang, Haofan Wang,\\Mike Zheng Shou, Yuheng Bu",
+      description: "arXiv 2024",
     },
     {
       company: "Universally Optimal Watermarking Schemes for LLMs: from Theory to Practice",
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
       title: "Haiyun He*, Yepeng Liu*, Ziqiao Wang, Yongyi Mao, Yuheng Bu",
-      description: "Preprint",
+      description: "arXiv 2024",
     },
     // {
     //   company: "TrojText: Test-time Invisible Textual Trojan Insertion",
