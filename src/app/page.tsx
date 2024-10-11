@@ -101,7 +101,7 @@ export default function Page() {
             Yuheng Bu
           </a>
           . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially Trustworthy Generative Models. 
-            Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!
+            Should you be interested in my research or wish to explore collaboration opportunities, please don&#39;t hesitate to drop me an email!
           </p>
         </Section>
 
@@ -139,6 +139,11 @@ export default function Page() {
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
                     {work.description}
                   </h4>
+
+                  <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
+                    {[work.paper] | [work.code]}
+                  </h4>
+                  
 
                   <div style={{ height: '10px' }}></div> 
   
