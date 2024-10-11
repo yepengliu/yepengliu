@@ -169,18 +169,13 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section>
+{/*         <Section>
           <div className="flex flex-wrap gap-1">
             <div style={{ height: '1px', width:'1px' }}>
-{/*                 <Script
-                id="clstr_globe"
-                src="//clustrmaps.com/globe.js?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984"
-                strategy="afterInteractive"
-              /> */}
               <a href="https://clustrmaps.com/site/1c1nl"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984&cl=ffffff" /></a>
             </div> 
           </div>
-        </Section>
+        </Section> */}
 
       </section>
         
