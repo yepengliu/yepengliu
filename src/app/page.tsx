@@ -76,11 +76,32 @@ export default function Page() {
             </Avatar>
              
         </div>
+
         
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
-            {RESUME_DATA.summary}
+            {/*             {RESUME_DATA.summary} */}
+            Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the{" "}
+          <a
+            href="https://www.ufl.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            University of Florida
+          </a>
+          . I'm very fortunate to be advised by Prof.{" "}
+          <a
+            href="https://buyuheng.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Yuheng Bu
+          </a>
+          . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially Trustworthy Generative Models. 
+            Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!
           </p>
         </Section>
         
