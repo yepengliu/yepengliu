@@ -112,14 +112,18 @@ export const RESUME_DATA = {
     //   description:
     //     "Proceedings of NeurIPS 2024",
     // },
-    // {
-    //   company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
-    //   link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
-    //   badges: [],
-    //   title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
-    //   description:
-    //     "Proceedings of NeurIPS 2024",
-    // },
+    {
+      company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
+      link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
+      badges: [],
+      title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
+      description:
+        "Proceedings of NeurIPS 2024",
+      paper: "[paper]",
+      paperlink: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
+      code: "",
+      codelink: "",
+    },
     // {
     //   company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
     //   link: "https://arxiv.org/abs/2406.01460",
