@@ -8,6 +8,7 @@ import { Mail, GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.website}`,
@@ -170,7 +171,12 @@ export default function Page() {
 
         <Section>
           <div className="flex flex-wrap gap-1">
-          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984"></script>
+          <Script
+            id="clstr_globe"
+            src="//clustrmaps.com/globe.js?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984"
+            strategy="afterInteractive"
+          />
+
           </div>
         </Section>
 
