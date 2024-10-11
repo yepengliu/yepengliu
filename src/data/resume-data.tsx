@@ -97,7 +97,7 @@ export const RESUME_DATA = {
       company: "TrojText: Test-time Invisible Textual Trojan Insertion",
       link: "https://arxiv.org/abs/2303.02242",
       badges: [],
-      title: "Qian Lou, Yepeng Liu, Bo Feng",
+      title: "Qian Lou,Yepeng Liu,Bo Feng",
       description: "Proceedings of ICLR 2023",
       paper:"[paper]",
       paperlink:"https://arxiv.org/abs/2303.02242",
@@ -116,7 +116,7 @@ export const RESUME_DATA = {
       company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
       link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
       badges: [],
-      title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
+      title: "Yu Zhang,Yepeng Liu,Duoqian Miao,Qi Zhang,Yiwei Shi,Liang Hu",
       description:
         "Proceedings of NeurIPS 2024",
       paper: "[paper]",
