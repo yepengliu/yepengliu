@@ -77,12 +77,12 @@ export default function Page() {
              
         </div>
 
-        
+{/*         Summary Section */}
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
             {/*             {RESUME_DATA.summary} */}
-            Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the{" "}
+            Hi, I&#39;m Yepeng. I&#39;m currently a second-year Ph.D. student in Electrical and Computer Engineering at the{" "}
           <a
             href="https://www.ufl.edu/"
             target="_blank"
@@ -91,7 +91,7 @@ export default function Page() {
           >
             University of Florida
           </a>
-          . I'm very fortunate to be advised by Prof.{" "}
+          . I&#39;m very fortunate to be advised by Prof.{" "}
           <a
             href="https://buyuheng.github.io/"
             target="_blank"
@@ -104,7 +104,8 @@ export default function Page() {
             Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!
           </p>
         </Section>
-        
+
+{/*         Selected Publications Section */}
         <Section>
           <h2 className="text-xl font-bold">Selected Publications</h2>
           {RESUME_DATA.work.map((work) => {
@@ -117,17 +118,17 @@ export default function Page() {
                         {work.company}
                       </a>
 
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
+                    {/*                       <span className="inline-flex gap-x-1">
+                                            {work.badges.map((badge) => (
+                                              <Badge
+                                                variant="secondary"
+                                                className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                                                key={badge}
+                                              >
+                                                {badge}
+                                              </Badge>
+                                            ))}
+                                          </span> */}
                     </h4>
                   </div>
 
