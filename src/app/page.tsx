@@ -141,7 +141,13 @@ export default function Page() {
                   </h4>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
-                    {work.paper | work.code}
+{/*                     {work.paper | work.code} */}
+                    <a className="hover:underline" href={work.paperlink}>
+                        {work.paper}
+                    </a>
+                    <a className="hover:underline" href={work.codelink}>
+                        {work.code}
+                    </a>
                   </h4>
                   
 
