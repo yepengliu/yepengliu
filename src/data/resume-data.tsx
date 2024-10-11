@@ -81,36 +81,36 @@ export const RESUME_DATA = {
       title: "Haiyun He*, Yepeng Liu*, Ziqiao Wang, Yongyi Mao, Yuheng Bu",
       description: "Preprint",
     },
-    {
-      company: "TrojText: Test-time Invisible Textual Trojan Insertion",
-      link: "https://arxiv.org/abs/2303.02242",
-      badges: [],
-      title: "Qian Lou, Yepeng Liu, Bo Feng",
-      description: "Proceedings of ICLR 2023",
-    },
-    {
-      company: "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models",
-      link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf04d01a0e76f8b13095349d9caca033-Abstract-Conference.html",
-      badges: [],
-      title: "Jiaqi Xue, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Bölöni, Qian Lou",
-      description:
-        "Proceedings of NeurIPS 2024",
-    },
-    {
-      company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
-      link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
-      badges: [],
-      title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
-      description:
-        "Proceedings of NeurIPS 2024",
-    },
-    {
-      company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
-      link: "https://arxiv.org/abs/2406.01460",
-      badges: [],
-      title: "Yu Zhang, Qi Zhang, Zixuan Gong, Yiwei Shi, Yepeng Liu, Duoqian Miao, Yang Liu, Ke Liu, Kun Yi, Wei Fan, Liang Hu, Changwei Wang",
-      description: "Proceedings of ICML 2024",
-    },
+    // {
+    //   company: "TrojText: Test-time Invisible Textual Trojan Insertion",
+    //   link: "https://arxiv.org/abs/2303.02242",
+    //   badges: [],
+    //   title: "Qian Lou, Yepeng Liu, Bo Feng",
+    //   description: "Proceedings of ICLR 2023",
+    // },
+    // {
+    //   company: "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models",
+    //   link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf04d01a0e76f8b13095349d9caca033-Abstract-Conference.html",
+    //   badges: [],
+    //   title: "Jiaqi Xue, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Bölöni, Qian Lou",
+    //   description:
+    //     "Proceedings of NeurIPS 2024",
+    // },
+    // {
+    //   company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
+    //   link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
+    //   badges: [],
+    //   title: "Yu Zhang, Yepeng Liu, Duoqian Miao, Qi Zhang, Yiwei Shi, Liang Hu",
+    //   description:
+    //     "Proceedings of NeurIPS 2024",
+    // },
+    // {
+    //   company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
+    //   link: "https://arxiv.org/abs/2406.01460",
+    //   badges: [],
+    //   title: "Yu Zhang, Qi Zhang, Zixuan Gong, Yiwei Shi, Yepeng Liu, Duoqian Miao, Yang Liu, Ke Liu, Kun Yi, Wei Fan, Liang Hu, Changwei Wang",
+    //   description: "Proceedings of ICML 2024",
+    // },
   ],
   skills: [
     "NeurIPS 2024",
