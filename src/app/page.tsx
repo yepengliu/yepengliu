@@ -87,7 +87,7 @@ export default function Page() {
             href="https://www.ufl.edu/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="hover:underline"
           >
             University of Florida
           </a>
@@ -96,7 +96,7 @@ export default function Page() {
             href="https://buyuheng.github.io/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="hover:underline"
           >
             Yuheng Bu
           </a>
