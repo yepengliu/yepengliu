@@ -29,8 +29,21 @@ export const RESUME_DATA = {
   email: "yepeng.liu@ufl.edu",
   about: "      ",
   
-  summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the University of Florida. I'm very fortunate to be advised by Prof. <a href="https://buyuheng.github.io/" target="_blank" rel="noopener noreferrer">Yuheng Bu</a>. My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!",
-  
+  //summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the University of Florida. I'm very fortunate to be advised by Prof. <a href="https://buyuheng.github.io/" target="_blank" rel="noopener noreferrer">Yuheng Bu</a>. My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!",
+  summary:(
+    <>
+      Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the{' '}
+      <a href="https://www.ufl.edu/" target="_blank" rel="noopener noreferrer">
+        University of Florida
+      </a>
+      . I'm very fortunate to be advised by Prof.{' '}
+      <a href="https://buyuheng.github.io/" target="_blank" rel="noopener noreferrer">
+        Yuheng Bu
+      </a>
+      . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!
+    </>
+    </>
+  )
   // avatarUrl: "https://raw.githubusercontent.com/yepengliu/yepengliu/main/src/app/me.jpg",
   avatarUrl: "https://anonymous.4open.science/api/repo/yepengliu-website-E6CF/file/me.jpg",
   
@@ -64,7 +77,7 @@ export const RESUME_DATA = {
       company: "Adaptive Text Watermark for Large Language Models",
       link: "https://arxiv.org/abs/2401.13927",
       badges: [],
-      title: "Yepeng Liu, Yuheng Bu",
+      title: "Yepeng Liu,Yuheng Bu",
       description: "Proceedings of ICML 2024",
     },
     {
@@ -78,7 +91,7 @@ export const RESUME_DATA = {
       company: "Universally Optimal Watermarking Schemes for LLMs: from Theory to Practice",
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
-      title: "Haiyun He*, Yepeng Liu*, Ziqiao Wang, Yongyi Mao, Yuheng Bu",
+      title: "Haiyun He*,Yepeng Liu*,Ziqiao Wang,Yongyi Mao,Yuheng Bu",
       description: "arXiv 2024",
     },
     // {
