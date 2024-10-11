@@ -169,7 +169,9 @@ export default function Page() {
         </Section>
 
         <Section>
+          <div className="flex flex-wrap gap-1">
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984"></script>
+          </div>
         </Section>
 
       </section>
