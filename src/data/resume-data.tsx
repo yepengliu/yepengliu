@@ -29,21 +29,8 @@ export const RESUME_DATA = {
   email: "yepeng.liu@ufl.edu",
   about: "      ",
   
-  //summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the University of Florida. I'm very fortunate to be advised by Prof. <a href="https://buyuheng.github.io/" target="_blank" rel="noopener noreferrer">Yuheng Bu</a>. My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!",
-  summary:(
-    <>
-      Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the{' '}
-      <a href="https://www.ufl.edu/" target="_blank" rel="noopener noreferrer">
-        University of Florida
-      </a>
-      . I'm very fortunate to be advised by Prof.{' '}
-      <a href="https://buyuheng.github.io/" target="_blank" rel="noopener noreferrer">
-        Yuheng Bu
-      </a>
-      . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!
-    </>
-    </>
-  )
+  summary: "Hi, I'm Yepeng. I'm currently a second-year Ph.D. student in Electrical and Computer Engineering at the University of Florida. I'm very fortunate to be advised by Prof. Yuheng Bu. My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially the Trustworthy Generative Models. Should you be interested in my research or wish to explore collaboration opportunities, please don't hesitate to drop me an email!",
+
   // avatarUrl: "https://raw.githubusercontent.com/yepengliu/yepengliu/main/src/app/me.jpg",
   avatarUrl: "https://anonymous.4open.science/api/repo/yepengliu-website-E6CF/file/me.jpg",
   
