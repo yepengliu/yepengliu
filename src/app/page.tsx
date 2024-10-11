@@ -171,7 +171,7 @@ export default function Page() {
 
         <Section>
           <div className="flex flex-wrap gap-1">
-            <div style={{ height: '50px', width:'50px' }}>
+            <div style={{ height: '100px', width:'100px' }}>
 {/*                 <Script
                 id="clstr_globe"
                 src="//clustrmaps.com/globe.js?d=fiRDJr8JDGrYvBJLgeh6fusHvo5IWMdBa6ABX9b7984"
