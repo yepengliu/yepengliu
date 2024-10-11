@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       description: "arXiv 2024",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.02890",
-      code: "[code]",
+      code: "[code will be released soon]",
       codelink: "",
     },
     // {
