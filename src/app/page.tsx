@@ -141,7 +141,7 @@ export default function Page() {
                   </h4>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px] text-gray-500">
-                    {[work.paper] | [work.code]}
+                    {work.paper | work.code}
                   </h4>
                   
 
