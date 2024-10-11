@@ -133,6 +133,6 @@ export const RESUME_DATA = {
     // },
   ],
   skills: [
-    "NeurIPS 2024",
+    "NeurIPS, ICLR, AISTATS",
   ],
 } as const;
