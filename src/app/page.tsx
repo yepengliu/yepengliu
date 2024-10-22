@@ -101,7 +101,7 @@ export default function Page() {
           >
             Yuheng Bu
           </a>
-          . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially Trustworthy Generative Models. 
+          . My current research mainly focuses on improving the safety, robustness, and reliability of AI models towards their deployment in the real world, especially watermarking Large Generative Models. 
             Should you be interested in my research or wish to explore collaboration opportunities, please don&#39;t hesitate to drop me an email!
           </p>
         </Section>
