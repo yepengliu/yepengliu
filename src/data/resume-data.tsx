@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       link: "https://arxiv.org/abs/2410.05470",
       badges: [],
       title: "Yepeng Liu,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
-      description: "arXiv 2024",
+      description: "Proceedings of ICLR 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.05470",
       code: "[code will be released soon]",
