@@ -132,6 +132,6 @@ export const RESUME_DATA = {
     // },
   ],
   skills: [
-    "NeurIPS, ICLR, AISTATS",
+    "NeurIPS, ICLR, ICML, AISTATS",
   ],
 } as const;
