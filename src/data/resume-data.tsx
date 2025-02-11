@@ -79,8 +79,8 @@ export const RESUME_DATA = {
       description: "Proceedings of ICLR 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.05470",
-      code: "[code will be released soon]",
-      codelink: "",
+      code: "[code]",
+      codelink: "https://github.com/yepengliu/CtrlRegen",
     },
     {
       company: "Universally Optimal Watermarking Schemes for LLMs: from Theory to Practice",
