@@ -94,6 +94,16 @@ export const RESUME_DATA = {
       codelink: "",
     },
     {
+      company: "Dataset Protection via Watermarked Canaries in Retrieval-Augmented LLMs",
+      link: "https://arxiv.org/abs/2502.10673",
+      title: "Yepeng Liu,Xuandong Zhao,Dawn Song,Yuheng Bu",
+      description: "arXiv 2025",
+      paper: "[paper]",
+      paperlink: "https://arxiv.org/abs/2502.10673",
+      code: "[code will be released soon]",
+      codelink: "",
+    },
+    {
       company: "TrojText: Test-time Invisible Textual Trojan Insertion",
       link: "https://arxiv.org/abs/2303.02242",
       badges: [],
@@ -112,17 +122,6 @@ export const RESUME_DATA = {
     //   description:
     //     "Proceedings of NeurIPS 2024",
     // },
-    {
-      company: "MG-ViT: A Multi-Granularity Method for Compact and Efficient Vision Transformers",
-      link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
-      title: "Yu Zhang,Yepeng Liu,Duoqian Miao,Qi Zhang,Yiwei Shi,Liang Hu",
-      description:
-        "Proceedings of NeurIPS 2024",
-      paper: "[paper]",
-      paperlink: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/daeef96627a461ec43b7567b2930cfde-Abstract-Conference.html",
-      code: "",
-      codelink: "",
-    },
     // {
     //   company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
     //   link: "https://arxiv.org/abs/2406.01460",
