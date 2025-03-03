@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       company: "Image Watermarks are Removable Using Controllable Regeneration from Clean Noise",
       link: "https://arxiv.org/abs/2410.05470",
       badges: [],
-      title: "<b>Yepeng Liu</b>,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
+      title: "Yepeng Liu,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
       description: "Proceedings of ICLR 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.05470",
