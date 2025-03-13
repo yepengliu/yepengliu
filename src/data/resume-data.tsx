@@ -103,32 +103,6 @@ export const RESUME_DATA = {
       code: "[code will be released soon]",
       codelink: "",
     },
-    // {
-    //   company: "TrojText: Test-time Invisible Textual Trojan Insertion",
-    //   link: "https://arxiv.org/abs/2303.02242",
-    //   badges: [],
-    //   title: "Qian Lou,Yepeng Liu,Bo Feng",
-    //   description: "Proceedings of ICLR 2023",
-    //   paper:"[paper]",
-    //   paperlink:"https://arxiv.org/abs/2303.02242",
-    //   code: "[code]",
-    //   codelink: "https://github.com/yepengliu/TrojText",
-    // },
-    // {
-    //   company: "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models",
-    //   link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf04d01a0e76f8b13095349d9caca033-Abstract-Conference.html",
-    //   badges: [],
-    //   title: "Jiaqi Xue, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Bölöni, Qian Lou",
-    //   description:
-    //     "Proceedings of NeurIPS 2024",
-    // },
-    // {
-    //   company: "MLIP: Efficient Multi-Perspective Language-Image Pretraining with Exhaustive Data Utilization",
-    //   link: "https://arxiv.org/abs/2406.01460",
-    //   badges: [],
-    //   title: "Yu Zhang, Qi Zhang, Zixuan Gong, Yiwei Shi, Yepeng Liu, Duoqian Miao, Yang Liu, Ke Liu, Kun Yi, Wei Fan, Liang Hu, Changwei Wang",
-    //   description: "Proceedings of ICML 2024",
-    // },
   ],
   skills: [
     "NeurIPS, ICLR, ICML, AISTATS",
