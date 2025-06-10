@@ -103,6 +103,16 @@ export const RESUME_DATA = {
       code: "[code will be released soon]",
       codelink: "",
     },
+    {
+      company: "In-Context Watermarks for Large Language Models",
+      link: "https://arxiv.org/abs/2505.16934",
+      title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      description: "arXiv 2025",
+      paper: "[paper]",
+      paperlink: "https://arxiv.org/abs/2505.16934",
+      code: "[code will be released soon]",
+      codelink: "",
+    },
   ],
   skills: [
     "NeurIPS, ICLR, ICML, AISTATS",
