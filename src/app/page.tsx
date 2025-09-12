@@ -164,7 +164,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">Services</h2>
           <div className="flex flex-wrap gap-1">
             <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
-              {"Service: NeurIPS(24',25'), ICLR(24',25'), ICML(25'), AAAI(25'), AISTATS(24')"}
+              {"NeurIPS(24',25'), ICLR(24',25'), ICML(25'), AAAI(25'), AISTATS(24')"}
             </p>
           </div>
         </Section>
