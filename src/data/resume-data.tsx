@@ -90,8 +90,8 @@ export const RESUME_DATA = {
       description: "arXiv 2024",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.02890",
-      code: "[code will be released soon]",
-      codelink: "",
+      code: "[code]",
+      codelink: "https://github.com/yepengliu/DAWA",
     },
     {
       company: "Dataset Protection via Watermarked Canaries in Retrieval-Augmented LLMs",
@@ -115,6 +115,6 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "NeurIPS, ICLR, ICML, AISTATS",
+    "NeurIPS (24', 25'), ICLR (24',25'), ICML (25'), AAAI (25'), AISTATS (24')",
   ],
 } as const;
