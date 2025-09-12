@@ -71,7 +71,7 @@ export default function Page() {
             
           </div>
 
-            <Avatar className="flex shrink-0 overflow-hidden w-52 h-65">
+            <Avatar className="flex shrink-0 overflow-hidden w-41.6 h-52">
               <AvatarImage src={RESUME_DATA.avatarUrl} />
               <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
             </Avatar>
