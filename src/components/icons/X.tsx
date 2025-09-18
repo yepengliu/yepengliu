@@ -5,8 +5,6 @@ export const X = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 50 50"
-    width="48px"
-    height="48px"
     {...props}
   >
     <g
