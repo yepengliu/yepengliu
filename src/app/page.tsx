@@ -25,7 +25,7 @@ export default function Page() {
           <div className="flex-1 space-y-1.5">
 
             <div style={{ height: '30px' }}></div> 
-            <h1 className="text-5xl font-bold">{RESUME_DATA.name}</h1>
+            <h1 className="text-3xl font-bold">{RESUME_DATA.name}</h1>
             <div style={{ height: '60px' }}></div> 
             
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
