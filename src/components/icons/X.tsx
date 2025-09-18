@@ -4,7 +4,7 @@ export const X = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 256 256"
+    viewBox="0 0 50 50"
     width="48px"
     height="48px"
     {...props}
