@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, GoogleScholar } from "@/components/icons";
 
 export const RESUME_DATA = {
   website: "Yepeng's Homepage",
@@ -51,9 +51,9 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
+        name: "GoogleScholar",
         url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
-        icon: XIcon,
+        icon: GoogleScholar,
       },
     ],
   },
