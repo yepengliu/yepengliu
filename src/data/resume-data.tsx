@@ -83,7 +83,7 @@ export const RESUME_DATA = {
       codelink: "https://github.com/yepengliu/CtrlRegen",
     },
     {
-      company: "Universally Optimal Watermarking Schemes for LLMs: from Theory to Practice",
+      company: "Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach",
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
       title: "Haiyun He*,Yepeng Liu*,Ziqiao Wang,Yongyi Mao,Yuheng Bu",
