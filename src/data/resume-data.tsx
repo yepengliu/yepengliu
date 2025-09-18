@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
       title: "Haiyun He*,Yepeng Liu*,Ziqiao Wang,Yongyi Mao,Yuheng Bu",
-      description: "arXiv 2024",
+      description: "Proceedings of NeurIPS 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.02890",
       code: "[code]",
