@@ -41,6 +41,16 @@ export const RESUME_DATA = {
     tel: "",
     social: [
       {
+        name: "GoogleScholar",
+        url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
+        icon: GoogleScholar,
+      },
+      {
+        name: "GitHub",
+        url: "https://github.com/yepengliu",
+        icon: GitHubIcon,
+      },
+      {
         name: "X",
         url: "https://x.com/yepengliu",
         icon: X,
@@ -49,16 +59,6 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/yepeng-liu-2951b2197",
         icon: LinkedInIcon,
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/yepengliu",
-        icon: GitHubIcon,
-      },
-      {
-        name: "GoogleScholar",
-        url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
-        icon: GoogleScholar,
       },
     ],
   },
