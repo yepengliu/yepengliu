@@ -103,7 +103,7 @@ export const RESUME_DATA = {
       badges: [],
       title: (
         <>
-          Haiyun He<sup>*</sup>, Yepeng Liu<sup>*</sup>, Ziqiao Wang, Yongyi Mao, Yuheng Bu
+          Haiyun He<sup>*</sup>, <strong>Yepeng Liu</strong><sup>*</sup>, Ziqiao Wang, Yongyi Mao, Yuheng Bu
         </>
       ),
       description: "Proceedings of NeurIPS 2025",
