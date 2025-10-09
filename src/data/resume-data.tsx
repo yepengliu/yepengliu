@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       code: "[code]",
       codelink: "https://github.com/yepengliu/CtrlRegen",
     },
-    {
+    { 
       company: "Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach",
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
