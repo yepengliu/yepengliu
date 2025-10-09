@@ -69,7 +69,12 @@ export const RESUME_DATA = {
       company: "Adaptive Text Watermark for Large Language Models",
       link: "https://arxiv.org/abs/2401.13927",
       badges: [],
-      title: "Yepeng Liu,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Yuheng Bu
+        </>
+      ),
+      // title: "Yepeng Liu,Yuheng Bu",
       description: "Proceedings of ICML 2024",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2401.13927",
@@ -80,7 +85,12 @@ export const RESUME_DATA = {
       company: "Image Watermarks are Removable Using Controllable Regeneration from Clean Noise",
       link: "https://arxiv.org/abs/2410.05470",
       badges: [],
-      title: "Yepeng Liu,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu
+        </>
+      ),
+      //title: "Yepeng Liu,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
       description: "Proceedings of ICLR 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.05470",
@@ -105,7 +115,12 @@ export const RESUME_DATA = {
     {
       company: "Dataset Protection via Watermarked Canaries in Retrieval-Augmented LLMs",
       link: "https://arxiv.org/abs/2502.10673",
-      title: "Yepeng Liu,Xuandong Zhao,Dawn Song,Yuheng Bu",
+      //title: "Yepeng Liu,Xuandong Zhao,Dawn Song,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Xuandong Zhao,Dawn Song,Yuheng Bu
+        </>
+      ),
       description: "arXiv 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2502.10673",
@@ -115,7 +130,12 @@ export const RESUME_DATA = {
     {
       company: "In-Context Watermarks for Large Language Models",
       link: "https://arxiv.org/abs/2505.16934",
-      title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
+        </>
+      ),
       description: "arXiv 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2505.16934",
