@@ -83,7 +83,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px] text-justify">
             {/*             {RESUME_DATA.summary} */}
-            Hi, I&#39;m Yepeng. I&#39;m currently a third-year Ph.D. student in Computer Sciense at the{" "}
+            Hi, I&#39;m Yepeng. I&#39;m currently a third-year Ph.D. student in Computer Science at the{" "}
           <a
             href="https://www.ucsb.edu/"
             target="_blank"
