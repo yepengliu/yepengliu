@@ -91,7 +91,11 @@ export const RESUME_DATA = {
       company: "Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach",
       link: "https://arxiv.org/abs/2410.02890",
       badges: [],
-      title: "Haiyun He*,Yepeng Liu*,Ziqiao Wang,Yongyi Mao,Yuheng Bu",
+      title: (
+        <>
+          Haiyun He<sup>*</sup>, Yepeng Liu<sup>*</sup>, Ziqiao Wang, Yongyi Mao, Yuheng Bu
+        </>
+      ),
       description: "Proceedings of NeurIPS 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.02890",
