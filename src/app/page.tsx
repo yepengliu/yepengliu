@@ -108,7 +108,7 @@ export default function Page() {
 
 {/*         Selected Publications Section */}
         <Section>
-          <h2 className="text-xl font-bold">Selected Publications</h2>
+          <h2 className="text-xl font-bold">Selected Research</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
