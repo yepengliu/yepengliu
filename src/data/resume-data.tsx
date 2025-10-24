@@ -142,6 +142,21 @@ export const RESUME_DATA = {
       code: "[code will be released soon]",
       codelink: "",
     },
+    {
+      company: "Position: LLM Watermarking Should Align Stakeholders’ Incentives for Practical Adoption",
+      link: "https://arxiv.org/abs/2510.18333",
+      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Xuandong Zhao,Dawn Song,Gregory W. Wornell,Yuheng Bu
+        </>
+      ),
+      description: "arXiv 2025",
+      paper: "[paper]",
+      paperlink: "https://arxiv.org/abs/2505.16934",
+      // code: "[code will be released soon]",
+      codelink: "",
+    },
   ],
   skills: [
     "NeurIPS (24', 25'), ICLR (24',25'), ICML (25'), AAAI (25'), AISTATS (24')",
