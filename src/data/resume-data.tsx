@@ -154,7 +154,7 @@ export const RESUME_DATA = {
       description: "arXiv 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2505.16934",
-      // code: "[code will be released soon]",
+      code: " ",
       codelink: "",
     },
   ],
