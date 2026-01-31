@@ -113,6 +113,21 @@ export const RESUME_DATA = {
       codelink: "https://github.com/yepengliu/DAWA",
     },
     {
+      company: "In-Context Watermarks for Large Language Models",
+      link: "https://arxiv.org/abs/2505.16934",
+      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
+        </>
+      ),
+      description: "Proceedings of ICLR 2026",
+      paper: "[paper]",
+      paperlink: "https://arxiv.org/abs/2505.16934",
+      code: "[code will be released soon]",
+      codelink: "",
+    },
+    {
       company: "Dataset Protection via Watermarked Canaries in Retrieval-Augmented LLMs",
       link: "https://arxiv.org/abs/2502.10673",
       //title: "Yepeng Liu,Xuandong Zhao,Dawn Song,Yuheng Bu",
@@ -124,21 +139,6 @@ export const RESUME_DATA = {
       description: "arXiv 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2502.10673",
-      code: "[code will be released soon]",
-      codelink: "",
-    },
-    {
-      company: "In-Context Watermarks for Large Language Models",
-      link: "https://arxiv.org/abs/2505.16934",
-      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
-      title: (
-        <>
-          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
-        </>
-      ),
-      description: "arXiv 2025",
-      paper: "[paper]",
-      paperlink: "https://arxiv.org/abs/2505.16934",
       code: "[code will be released soon]",
       codelink: "",
     },
