@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       link: "https://www.arxiv.org/abs/2602.01075",
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Yu Huang,Yu-Xiang Wang,Yingbin Liang,Yuheng Bu
+          <strong>Yepeng Liu</strong>, Yu Huang, Yu-Xiang Wang, Yingbin Liang, Yuheng Bu
         </>
       ),
       description: "arXiv 2026",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
+          <strong>Yepeng Liu</strong>, Xuandong Zhao, Christopher Kruegel, Dawn Song, Yuheng Bu
         </>
       ),
       description: "Proceedings of ICLR 2026",
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
       badges: [],
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Yuheng Bu
+          <strong>Yepeng Liu</strong>, Yuheng Bu
         </>
       ),
       // title: "Yepeng Liu,Yuheng Bu",
@@ -149,7 +149,7 @@ export const RESUME_DATA = {
       //title: "Yepeng Liu,Xuandong Zhao,Dawn Song,Yuheng Bu",
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Xuandong Zhao,Dawn Song,Yuheng Bu
+          <strong>Yepeng Liu</strong>, Xuandong Zhao, Dawn Song, Yuheng Bu
         </>
       ),
       description: "arXiv 2025",
@@ -164,7 +164,7 @@ export const RESUME_DATA = {
       // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Xuandong Zhao,Dawn Song,Gregory W. Wornell,Yuheng Bu
+          <strong>Yepeng Liu</strong>, Xuandong Zhao, Dawn Song, Gregory W. Wornell, Yuheng Bu
         </>
       ),
       description: "arXiv 2025",
