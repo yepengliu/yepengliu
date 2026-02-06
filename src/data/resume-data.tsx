@@ -65,21 +65,35 @@ export const RESUME_DATA = {
 
   
   work: [
-    {
-      company: "Adaptive Text Watermark for Large Language Models",
-      link: "https://arxiv.org/abs/2401.13927",
-      badges: [],
+      {
+      company: "ConvexBench: Can LLMs Recognize Convex Functions?",
+      link: "https://www.arxiv.org/abs/2602.01075",
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Yuheng Bu
+          <strong>Yepeng Liu</strong>,Yu Huang,Yu-Xiang Wang,Yingbin Liang,Yuheng Bu
         </>
       ),
-      // title: "Yepeng Liu,Yuheng Bu",
-      description: "Proceedings of ICML 2024",
+      description: "arXiv 2026",
       paper: "[paper]",
-      paperlink: "https://arxiv.org/abs/2401.13927",
-      code: "[code]",
-      codelink: "https://github.com/yepengliu/adaptive-text-watermark",
+      paperlink: "https://www.arxiv.org/abs/2602.01075",
+      code: "[code will be released soon]",
+      codelink: "",
+    },
+
+    {
+      company: "In-Context Watermarks for Large Language Models",
+      link: "https://arxiv.org/abs/2505.16934",
+      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      title: (
+        <>
+          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
+        </>
+      ),
+      description: "Proceedings of ICLR 2026",
+      paper: "[paper]",
+      paperlink: "https://arxiv.org/abs/2505.16934",
+      code: "[code will be released soon]",
+      codelink: "",
     },
     {
       company: "Image Watermarks are Removable Using Controllable Regeneration from Clean Noise",
@@ -112,20 +126,22 @@ export const RESUME_DATA = {
       code: "[code]",
       codelink: "https://github.com/yepengliu/DAWA",
     },
+    
     {
-      company: "In-Context Watermarks for Large Language Models",
-      link: "https://arxiv.org/abs/2505.16934",
-      // title: "Yepeng Liu,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu",
+      company: "Adaptive Text Watermark for Large Language Models",
+      link: "https://arxiv.org/abs/2401.13927",
+      badges: [],
       title: (
         <>
-          <strong>Yepeng Liu</strong>,Xuandong Zhao,Christopher Kruegel,Dawn Song,Yuheng Bu
+          <strong>Yepeng Liu</strong>,Yuheng Bu
         </>
       ),
-      description: "Proceedings of ICLR 2026",
+      // title: "Yepeng Liu,Yuheng Bu",
+      description: "Proceedings of ICML 2024",
       paper: "[paper]",
-      paperlink: "https://arxiv.org/abs/2505.16934",
-      code: "[code will be released soon]",
-      codelink: "",
+      paperlink: "https://arxiv.org/abs/2401.13927",
+      code: "[code]",
+      codelink: "https://github.com/yepengliu/adaptive-text-watermark",
     },
     {
       company: "Dataset Protection via Watermarked Canaries in Retrieval-Augmented LLMs",
