@@ -73,7 +73,7 @@ export const RESUME_DATA = {
           <strong>Yepeng Liu</strong>, Yu Huang, Yu-Xiang Wang, Yingbin Liang, Yuheng Bu
         </>
       ),
-      description: "Proceedings of ICML 2026",
+      description: "ICML 2026",
       paper: "[paper]",
       paperlink: "https://www.arxiv.org/abs/2602.01075",
       code: "[code will be released soon]",
@@ -89,7 +89,7 @@ export const RESUME_DATA = {
           <strong>Yepeng Liu</strong>, Xuandong Zhao, Christopher Kruegel, Dawn Song, Yuheng Bu
         </>
       ),
-      description: "Proceedings of ICLR 2026",
+      description: "ICLR 2026",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2505.16934",
       code: "[code]",
@@ -105,7 +105,7 @@ export const RESUME_DATA = {
         </>
       ),
       //title: "Yepeng Liu,Yiren Song,Hai Ci,Yu Zhang,Haofan Wang,Mike Zheng Shou,Yuheng Bu",
-      description: "Proceedings of ICLR 2025",
+      description: "ICLR 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.05470",
       code: "[code]",
@@ -120,7 +120,7 @@ export const RESUME_DATA = {
           Haiyun He<sup>*</sup>, <strong>Yepeng Liu</strong><sup>*</sup>, Ziqiao Wang, Yongyi Mao, Yuheng Bu
         </>
       ),
-      description: "Proceedings of NeurIPS 2025",
+      description: "NeurIPS 2025",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2410.02890",
       code: "[code]",
@@ -137,7 +137,7 @@ export const RESUME_DATA = {
         </>
       ),
       // title: "Yepeng Liu,Yuheng Bu",
-      description: "Proceedings of ICML 2024",
+      description: "ICML 2024",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2401.13927",
       code: "[code]",
