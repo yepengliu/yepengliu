@@ -73,7 +73,7 @@ export const RESUME_DATA = {
           <strong>Yepeng Liu</strong>, Yu Huang, Yu-Xiang Wang, Yingbin Liang, Yuheng Bu
         </>
       ),
-      description: "arXiv 2026",
+      description: "Proceedings of ICML 2026",
       paper: "[paper]",
       paperlink: "https://www.arxiv.org/abs/2602.01075",
       code: "[code will be released soon]",
@@ -92,8 +92,8 @@ export const RESUME_DATA = {
       description: "Proceedings of ICLR 2026",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2505.16934",
-      code: "[code will be released soon]",
-      codelink: "",
+      code: "[code]",
+      codelink: "https://github.com/yepengliu/In-Context-Watermarks",
     },
     {
       company: "Image Watermarks are Removable Using Controllable Regeneration from Clean Noise",
@@ -167,7 +167,7 @@ export const RESUME_DATA = {
           <strong>Yepeng Liu</strong>, Xuandong Zhao, Dawn Song, Gregory W. Wornell, Yuheng Bu
         </>
       ),
-      description: "arXiv 2025",
+      description: "ACL Findings 2026",
       paper: "[paper]",
       paperlink: "https://arxiv.org/abs/2505.16934",
       code: " ",
