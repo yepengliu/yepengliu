@@ -28,7 +28,7 @@ export function SiteNav() {
             href={tab.href}
             aria-current={isActive ? "page" : undefined}
             className={cn(
-              "border-b-2 pb-1 font-mono text-xl font-bold transition-colors",
+              "border-b-2 pb-1 font-mono text-base uppercase tracking-wider transition-colors",
               isActive
                 ? "border-foreground text-foreground"
                 : "border-transparent text-muted-foreground hover:text-foreground",
