@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <Section>
       <p className={paragraph}>
-        Hi, I&#39;m Yepeng. I&#39;m currently a third-year Ph.D. student in
+        Hi, I&#39;m Yepeng. I&#39;m currently a fourth-year Ph.D. student in
         Computer Science at the{" "}
         <a
           href="https://www.ucsb.edu/"

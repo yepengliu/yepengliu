@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import React from "react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/fade-in";
 import { SiteNav } from "@/components/site-nav";
 import { RESUME_DATA } from "@/data/resume-data";
@@ -38,54 +37,44 @@ export default function RootLayout({
         <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
           <div className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
             {/* hero：两个页面共用，切换 tab 时不会重新渲染 */}
-            <div className="flex items-start justify-between gap-x-8">
-              <div className="flex min-h-[12rem] flex-1 flex-col justify-between">
-                <h1 className="text-4xl font-bold leading-none">{RESUME_DATA.name}</h1>
-
-                <div className="space-y-1.5">
-                  <p className="max-w-md items-center text-pretty font-mono text-sm text-muted-foreground">
-                    <span className="inline-flex gap-x-1.5 align-baseline leading-none">
-                      <Mail className="size-3" />
-                      {RESUME_DATA.email}
-                    </span>
-                  </p>
-
-                  <p className="max-w-md items-center text-pretty font-mono text-sm text-muted-foreground">
-                    <a
-                      className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                      href={RESUME_DATA.locationLink}
-                      target="_blank"
-                    >
-                      <GlobeIcon className="size-3" />
-                      {RESUME_DATA.location}
-                    </a>
-                  </p>
-
-                  <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
-                    {RESUME_DATA.contact.social.map((social) => (
-                      <Button
-                        key={social.name}
-                        className="size-8"
-                        variant="outline"
-                        size="icon"
-                        asChild
-                      >
-                        <a href={social.url}>
-                          <social.icon className="size-6" />
-                        </a>
-                      </Button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <Avatar className="aspect-[4/5] h-48 w-auto shrink-0 overflow-hidden rounded-xl">
+            <div className="flex flex-col items-center text-center">
+              <Avatar className="size-[104px] shrink-0 overflow-hidden rounded-full shadow-[0_3px_14px_rgba(0,0,0,0.24)]">
                 <AvatarImage
                   className="object-cover"
                   src={RESUME_DATA.avatarUrl}
                 />
                 <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
               </Avatar>
+
+              <h1 className="mt-6 text-4xl font-bold leading-none">{RESUME_DATA.name}</h1>
+
+              <div className="mt-4 flex flex-col items-center gap-y-1.5 font-mono text-sm text-muted-foreground">
+                <span className="inline-flex items-center gap-x-1.5">
+                  <Mail className="size-3" />
+                  {RESUME_DATA.email}
+                </span>
+                <a
+                  className="inline-flex items-center gap-x-1.5 hover:underline"
+                  href={RESUME_DATA.locationLink}
+                  target="_blank"
+                >
+                  <GlobeIcon className="size-3" />
+                  {RESUME_DATA.location}
+                </a>
+              </div>
+
+              <div className="mt-4 flex gap-x-5 print:hidden">
+                {RESUME_DATA.contact.social.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    aria-label={social.name}
+                    className="text-[#86868b] transition-colors hover:text-foreground"
+                  >
+                    <social.icon className="size-5" />
+                  </a>
+                ))}
+              </div>
             </div>
 
             <SiteNav />

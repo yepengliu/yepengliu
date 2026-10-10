@@ -10,34 +10,33 @@ const TABS = [
   { href: "/research", label: "Research" },
 ] as const;
 
-/**
- * About / Research 之间的切换。两个 tab 就是页面标题本身——
- * 所以字号和字重跟原来的 h2 一致，下面的内容区不再重复标题。
- */
+/** About / Research 切换，做成苹果的分段控件：灰色胶囊底，当前项是浮起的白色胶囊 */
 export function SiteNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex gap-x-6">
-      {TABS.map((tab) => {
-        const isActive = pathname === tab.href;
+    <nav className="flex justify-center">
+      <div className="inline-flex rounded-full bg-[rgba(118,118,128,0.12)] p-0.5">
+        {TABS.map((tab) => {
+          const isActive = pathname === tab.href;
 
-        return (
-          <Link
-            key={tab.href}
-            href={tab.href}
-            aria-current={isActive ? "page" : undefined}
-            className={cn(
-              "border-b-2 pb-1 font-mono text-base uppercase tracking-wider transition-colors",
-              isActive
-                ? "border-foreground text-foreground"
-                : "border-transparent text-muted-foreground hover:text-foreground",
-            )}
-          >
-            {tab.label}
-          </Link>
-        );
-      })}
+          return (
+            <Link
+              key={tab.href}
+              href={tab.href}
+              aria-current={isActive ? "page" : undefined}
+              className={cn(
+                "rounded-full px-[22px] py-1.5 text-[13px] font-medium tracking-[-0.01em] transition",
+                isActive
+                  ? "bg-white shadow-[0_3px_8px_rgba(0,0,0,0.12),0_3px_1px_rgba(0,0,0,0.04)]"
+                  : "hover:opacity-60",
+              )}
+            >
+              {tab.label}
+            </Link>
+          );
+        })}
+      </div>
     </nav>
   );
 }

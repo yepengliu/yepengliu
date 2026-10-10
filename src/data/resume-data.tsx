@@ -31,30 +31,10 @@ const PUBLICATIONS: Publication[] = [
       "Dawn Song",
       "Yuheng Bu",
     ],
-    venue: "arXiv 2026",
+    venue: "NeurIPS 2026",
     year: 2026,
     paperlink: "https://arxiv.org/abs/2608.29030",
     codelink: "https://github.com/yepengliu/ICW-IF",
-  },
-  {
-    title:
-      "Figures as Programs: Recursive Generation of Editable Scientific Figures",
-    authors: [
-      "Yepeng Liu",
-      "Dasen Dai",
-      "Chengzhi Liu",
-      "Yiren Song",
-      "Hai Ci",
-      "Yu Zhang",
-      "Qi Zhang",
-      "Mike Zheng Shou",
-      "Xin Eric Wang",
-      "Yuheng Bu",
-    ],
-    venue: "arXiv 2026",
-    year: 2026,
-    paperlink: "https://arxiv.org/abs/2609.01006",
-    codelink: "https://github.com/yepengliu/FigTree",
   },
   {
     title: "ConvexBench: Can LLMs Recognize Convex Functions?",
@@ -69,6 +49,26 @@ const PUBLICATIONS: Publication[] = [
     year: 2026,
     paperlink: "https://www.arxiv.org/abs/2602.01075",
     codelink: "https://github.com/yepengliu/ConvexBench",
+  },
+  {
+    title: "Auditing Agent Harness Safety",
+    authors: [
+      "Chengzhi Liu",
+      "Yichen Guo",
+      "Yepeng Liu",
+      "Yuzhe Yang",
+      "Qianqi Yan",
+      "Xuandong Zhao",
+      "Wenyue Hua",
+      "Sheng Liu",
+      "Sharon Li",
+      "Yuheng Bu",
+      "Xin Eric Wang",
+    ],
+    venue: "arXiv 2026",
+    year: 2026,
+    paperlink: "https://arxiv.org/abs/2605.14271",
+    codelink: "https://github.com/UCSB-AI/HarnessAudit",
   },
   {
     title: "In-Context Watermarks for Large Language Models",
@@ -147,6 +147,31 @@ const PUBLICATIONS: Publication[] = [
     paperlink: "https://arxiv.org/abs/2401.13927",
     codelink: "https://github.com/yepengliu/adaptive-text-watermark",
   },
+  {
+    title: "TrojText: Test-time Invisible Textual Trojan Insertion",
+    authors: ["Qian Lou", "Yepeng Liu", "Bo Feng"],
+    venue: "ICLR 2023",
+    year: 2023,
+    paperlink: "https://arxiv.org/abs/2303.02242",
+    codelink: "https://github.com/yepengliu/TrojText",
+  },
+  {
+    title: "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models",
+    authors: [
+      "Jiaqi Xue",
+      "Mengxin Zheng",
+      "Ting Hua",
+      "Yilin Shen",
+      "Yepeng Liu",
+      "Ladislau Bölöni",
+      "Qian Lou",
+    ],
+    venue: "NeurIPS 2023",
+    year: 2023,
+    paperlink:
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf04d01a0e76f8b13095349d9caca033-Abstract-Conference.html",
+    codelink: "https://github.com/UCF-ML-Research/TrojLLM",
+  },
 ];
 
 export const RESUME_DATA = {
@@ -154,12 +179,13 @@ export const RESUME_DATA = {
 
   name: "Yepeng Liu",
   initials: "YL",
-  location: "Santa Barbara, California, USA",
+  location: "Santa Barbara, CA, USA",
   locationLink: "https://maps.app.goo.gl/PzanfcBVWB6FHqnX6",
   email: "yepengliu@ucsb.edu",
 
-  // 图片放在 public/me.jpg，换头像时把 public/me.jpg 换掉即可
-  avatarUrl: "/me.jpg",
+  // public/avatar.jpg 是从原照片派生的 400x400 正方形图：
+  // 左右延展了背景（缩放 1.15），让人像在圆形头像里小一点。换照片时要重新生成。
+  avatarUrl: "/avatar.jpg",
 
   contact: {
     social: [
