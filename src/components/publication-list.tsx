@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 
-import { RESUME_DATA, type Publication } from "@/data/resume-data";
+import { PROFILE } from "@/data/profile";
+import type { Publication } from "@/data/publications";
 
 /** 按年份倒序分组，组内保持数据文件里的手排顺序 */
 function groupByYear(publications: readonly Publication[]) {
@@ -29,7 +30,7 @@ function AuthorList({ authors }: { authors: readonly string[] }) {
         return (
           <Fragment key={author}>
             <span className="whitespace-nowrap">
-              {name === RESUME_DATA.name ? (
+              {name === PROFILE.name ? (
                 <strong className="underline underline-offset-2">{name}</strong>
               ) : (
                 name

@@ -11,7 +11,7 @@ export function FadeIn({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div key={pathname} className="animate-in fade-in duration-200">
+    <div key={pathname} className="duration-200 animate-in fade-in">
       {children}
     </div>
   );

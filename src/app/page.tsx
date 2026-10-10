@@ -1,11 +1,9 @@
-import { Section } from "@/components/ui/section";
-
 const paragraph =
   "text-pretty text-justify font-mono text-sm text-muted-foreground print:text-[12px]";
 
 export default function Page() {
   return (
-    <Section>
+    <div className="flex flex-col gap-y-3">
       <p className={paragraph}>
         Hi, I&#39;m Yepeng. I&#39;m currently a fourth-year Ph.D. student in
         Computer Science at the{" "}
@@ -39,8 +37,8 @@ export default function Page() {
 
       <p className={`${paragraph} pl-5`}>
         (2) developing <em>LLM post-training</em> methods, such as{" "}
-        <em>reinforcement learning</em> and <em>on-policy distillation</em>, 
-        to improve model capabilities such as instruction-following and reasoning;
+        <em>reinforcement learning</em> and <em>on-policy distillation</em>, to
+        improve model capabilities such as instruction-following and reasoning;
       </p>
 
       <p className={`${paragraph} pl-5`}>
@@ -52,6 +50,6 @@ export default function Page() {
         Should you be interested in my research or wish to explore collaboration
         opportunities, please don&#39;t hesitate to drop me an email!
       </p>
-    </Section>
+    </div>
   );
 }

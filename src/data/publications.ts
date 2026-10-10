@@ -1,12 +1,10 @@
-import { GitHubIcon, LinkedInIcon, GoogleScholar, X } from "@/components/icons";
-
 export type Publication = {
   title: string;
   /**
    * 作者名单，一个人一个字符串。渲染时每个名字整体不换行，
    * 逗号后才允许折行，所以人名不会被从中间切开。
    * 名字末尾加 "*" 表示同等贡献，会渲染成上标。
-   * 跟 RESUME_DATA.name 相同的名字自动加粗并加下划线，不用手动标。
+   * 跟 PROFILE.name 相同的名字自动加粗并加下划线，不用手动标。
    */
   authors: string[];
   /** 原样显示的发表信息，带年份，例如 "ICML 2026" / "arXiv 2025" */
@@ -20,7 +18,7 @@ export type Publication = {
   codeNote?: string;
 };
 
-const PUBLICATIONS: Publication[] = [
+export const PUBLICATIONS: Publication[] = [
   {
     title:
       "Learning to Follow In-Context Watermark Instructions via Self-Distillation",
@@ -173,48 +171,3 @@ const PUBLICATIONS: Publication[] = [
     codelink: "https://github.com/UCF-ML-Research/TrojLLM",
   },
 ];
-
-export const RESUME_DATA = {
-  website: "Yepeng's Homepage",
-
-  name: "Yepeng Liu",
-  initials: "YL",
-  location: "Santa Barbara, CA, USA",
-  locationLink: "https://maps.app.goo.gl/PzanfcBVWB6FHqnX6",
-  email: "yepengliu@ucsb.edu",
-
-  // public/avatar.jpg 是从原照片派生的 400x400 正方形图：
-  // 左右延展了背景（缩放 1.15），让人像在圆形头像里小一点。换照片时要重新生成。
-  avatarUrl: "/avatar.jpg",
-
-  contact: {
-    social: [
-      {
-        name: "GoogleScholar",
-        url: "https://scholar.google.com/citations?user=I7nvVHgAAAAJ&hl=en",
-        icon: GoogleScholar,
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/yepengliu",
-        icon: GitHubIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/yepengliu",
-        icon: X,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yepeng-liu-2951b2197",
-        icon: LinkedInIcon,
-      },
-    ],
-  },
-
-  publications: PUBLICATIONS,
-
-  // 目前 Services 那一节是注释掉的（见 src/app/research/page.tsx），
-  // 想重新打开时这行文案在这里
-  services: "NeurIPS (24', 25'), ICLR (24',25'), ICML (25'), AAAI (25'), AISTATS (24')",
-} as const;
