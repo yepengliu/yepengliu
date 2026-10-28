@@ -36,6 +36,7 @@ scripts/make_avatar.py     从原图生成头像
 - **加论文、改 venue、加代码链接**：`src/data/publications.ts`。数组顺序就是页面上的顺序，`year` 决定分在哪个年份组。
 - **改 About 文字**：`src/app/page.tsx`
 - **改邮箱、地址、社交链接**：`src/data/profile.ts`
+- **求职信息**：`src/app/page.tsx` 顶部的白色卡片。找到工作后删掉那个 `div` 即可。
 - **换头像**：用新照片替换 `assets/avatar-source.jpg`，然后运行 `python3 scripts/make_avatar.py`（需要 `pip install pillow`）。
 
 ## 本地预览与部署

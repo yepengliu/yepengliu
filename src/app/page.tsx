@@ -4,6 +4,16 @@ const paragraph =
 export default function Page() {
   return (
     <div className="flex flex-col gap-y-3">
+      {/* 求职信息。找到工作后删掉这个 div */}
+      <div className="mb-2 flex items-start gap-x-3 rounded-xl border border-black/[0.06] bg-white px-4 py-3.5 shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
+        <span className="mt-[7px] size-1.5 shrink-0 rounded-full bg-[#34c759]" />
+        <p className="text-pretty text-justify font-mono text-sm text-foreground">
+          <strong>I&#39;m on the job market</strong>, seeking full-time industry
+          Research Scientist or related positions in Large Language Models!
+          Please reach out to me if you are interested in my research!
+        </p>
+      </div>
+
       <p className={paragraph}>
         Hi, I&#39;m Yepeng. I&#39;m currently a fourth-year Ph.D. student in
         Computer Science at the{" "}
