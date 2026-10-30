@@ -21,6 +21,23 @@ export type Publication = {
 export const PUBLICATIONS: Publication[] = [
   {
     title:
+      "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+    authors: [
+      "Yepeng Liu",
+      "Shengmai Chen",
+      "Xuandong Zhao",
+      "Chengzhi Liu",
+      "Dawn Song",
+      "Xin Eric Wang",
+      "Yuheng Bu",
+    ],
+    venue: "arXiv 2026",
+    year: 2026,
+    paperlink: "https://arxiv.org/abs/2610.32046",
+    codelink: "https://github.com/yepengliu/TTME",
+  },
+  {
+    title:
       "Learning to Follow In-Context Watermark Instructions via Self-Distillation",
     authors: [
       "Yepeng Liu",
